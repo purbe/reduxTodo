@@ -1,8 +1,42 @@
-# React + Vite
+# Redux Todo Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple Todo application built with React and Redux, utilizing Vite for bundling and development.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Add, edit, and delete tasks
+- Mark tasks as completed
+- Filter tasks by status (all, active, completed)
+- Persistent state management with Redux
+
+## Prerequisites
+
+Ensure you have the following installed:
+
+- [Node.js](https://nodejs.org/) (version 16 or higher)
+- [npm](https://www.npmjs.com/) or [Yarn](https://yarnpkg.com/)
+
+## Installation
+
+1. **Clone the Repository:**
+
+   ```bash
+   git clone https://github.com/purbe/reduxTodo.git
+   cd reduxTodo
+    ```
+2. Install Dependencies:
+    ``` 
+   npm install
+   yarn install
+   ```
+**Start the Application:**
+npm run dev
+
+**Open in Browser:**
+Navigate to http://localhost:3000 to interact with the application.
+
+## Available Scripts
+- dev: Starts the development server with hot reloading.
+- build: Builds the application for production.
+- serve: Serves the production build locally.
+- lint: Runs ESLint to check for code quality issues.
